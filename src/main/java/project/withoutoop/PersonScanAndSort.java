@@ -1,5 +1,6 @@
+package project.withoutoop;
+
 import java.io.IOException;
-import java.sql.SQLOutput;
 import java.util.*;
 
 public class PersonScanAndSort {
@@ -40,8 +41,8 @@ public class PersonScanAndSort {
                     persons.stream().distinct().sorted(Comparator.comparing(Person::getLastName)).forEach(System.out::println);
                     continue;
                 case "5":
-                    SaveFile saveFile = new SaveFile();
-                    saveFile.save(notSortedPersons);
+                    SaveReadFile saveReadFile = new SaveReadFile();
+                    saveReadFile.save(notSortedPersons);
                     continue;
                 case "6":
                     break;

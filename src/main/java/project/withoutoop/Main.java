@@ -1,3 +1,5 @@
+package project.withoutoop;
+
 import java.io.IOException;
 
 public class Main {

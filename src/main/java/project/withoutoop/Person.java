@@ -1,3 +1,5 @@
+package project.withoutoop;
+
 import java.util.Objects;
 
 public class Person {
@@ -19,7 +21,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "project.withoutoop.Person{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 '}';

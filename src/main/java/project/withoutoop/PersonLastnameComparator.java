@@ -1,8 +1,9 @@
-import java.util.ArrayList;
+package project.withoutoop;
+
 import java.util.Comparator;
 import java.util.List;
 
-class PersonLastnameComparator implements Comparator<Person> {
+public class PersonLastnameComparator implements Comparator<Person> {
 
     public int compare(Person a, Person b) {
 
